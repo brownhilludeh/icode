@@ -68,22 +68,26 @@ border-radius: 30px;
     background-color: orangered;
     color: whitesmoke;
  }
+ /* Thius is the hero css */
  /* HEro */
  .hero{
-    border: solid;
     height: 50vh;
     width: 100%;
  }
- .hero .uche-container{
-    border: solid;
+.hero-image{
     height: 50vh;
- }
- .hero .uche-container img{
-    height: 100%;
-    /* position: relative; */
-    margin: auto;
-    object-position: center;
-    object-fit: cover;
-    width: 100%;
-    overflow: hidden;
- }
+    background-image:linear-gradient(rgba(0,0,0, .5),
+     rgba(0,0,0, .5)), url(hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: aliceblue;
+    text-align: center;
+    /* font-size: 40px; */
+}

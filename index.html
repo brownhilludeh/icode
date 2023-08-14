@@ -1,56 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCode Summer </title>
-    <link rel="stylesheet" href="/icode.css">
-  </head>
-<body>
-    <!-- jhjgjfhjg -->
-    <!-- done -->
-    <header>
-        <!-- nav bar is here -->
-        <nav class="navbar">
-            <div class="logo">
-                <img src="/logo2.jpg" alt="logo image">
-            </div>
-            <ul class="navitem">
-                <li>
-                    <a class="navlink" href="/">Home</a>
-                </li>
-                <li class="navlink">
-                    <a href="/courses.html">Courses</a>
-                </li>
-                <li class="navlink">
-                    <a href="#">Focus</a>
-                </li>
-                <li class="navlink">
-                    <a href="#">About Us</a>
-                </li>
-            </ul>
-            <div class="navright">
-                <input type="search" placeholder="Search here">
-                <a href="https://www.google.com" class="btn btn-orange">sign up</a>
-            </div>
-        </nav>
-    </header>
-    <!-- end header -->
-    <!-- hero -->
-    <section class="hero" id="hero">
-        <div class="hero-image">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iCode Summer </title>
+        <link rel="stylesheet" href="/icode.css">
+    </head>
+
+    <body>
+        <!-- jhjgjfhjg -->
+        <!-- done -->
+        <header>
+            <!-- nav bar is here -->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="/logo2.jpg" alt="logo image">
+                </div>
+                <ul class="navitem">
+                    <li>
+                        <a class="navlink" href="/">Home</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="/courses.html">Courses</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="#">Focus</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+                <div class="navright">
+                    <input type="search" placeholder="Search here">
+                    <a href="https://www.google.com" class="btn btn-orange">sign up</a>
+                </div>
+            </nav>
+
+        </header>
+        <!-- end header -->
+
+        <!-- This HTML should go under your header tag -->
+        <!-- hero image from CSS-->
+        <section class="hero">
+            <div class="hero-image"></div>
             <div class="hero-text">
                 <h2>I am Brownhill</h2>
                 <p>I am a programmer</p>
             </div>
-        </div>
-        <!-- <div class="uche-container">
-            <img src="/hero.jpg" class="ivie-image"  alt="Hero Image">
-            <div class="hero-content">
-                <h2>brownportal</h2>
-                <p>..creating the difference... </p>
+        </section>
+        <!-- You can add this to your CSS -->
+        <style>
+            .hero img {
+                width: 100%;
+                height: 50vh;
+                object-fit: cover;
+                object-position: center;
+            }
+        </style>
+
+        <!-- Class-act -->
+        <section class="class-act">
+            <div class="title">
+                <h2>Our Class Activities</h2>
+                <p>Our best services for your child</p>
             </div>
-        </div> -->
-    </section>
-</body>
+            <div class="class-body">
+                <div class="class-grid">
+                    <div class="class-card">
+                        <img src="/hero.jpg" alt="class image">
+                        <div class="card-info">
+                            <div class="card-profile">
+                                <img src="/logo2.jpg" alt="profile image">
+                            </div>
+                            <div class="card-text">
+                                <h3>Progress and Jake</h3>
+                                <p>updated Aug, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            .class-act {
+                border: solid;
+            }
+            .class-act .title {
+                text-align: center;
+                margin: 20px auto;
+            }
+            .class-act .class-body {
+                border: solid;
+            }
+        </style>
+
+    </body>
+
 </html>
