@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+            <nav class="navbar">
+                <div class="navbar-logo">
+                    <img src="youtube-logo.png" alt="YouTube Logo">
+                </div>
+                <div class="navbar-search">
+                    <input type="text" placeholder="Search">
+                    <button class="search-button">Search</button>
+                </div>
+                <div class="navbar-links">
+                    <a href="#">Home</a>
+                    <a href="#">Trending</a>
+                    <a href="#">Subscriptions</a>
+                    <a href="#">Library</a>
+                    <a href="#">History</a>
+                </div>
+                <div class="navbar-user">
+                    <img src="user-avatar.png" alt="User Avatar">
+                </div>
+            </nav>
+            <section class="video-grid">
+                <div class="video-item">
+                    <img src="video-thumbnail1.jpg" alt="Video 1">
+                    <h3>Video Title 1</h3>
+                    <p>Views: 10,000</p>
+                </div>
+                <div class="video-item">
+                    <img src="video-thumbnail2.jpg" alt="Video 2">
+                    <h3>Video Title 2</h3>
+                    <p>Views: 15,000</p>
+                </div>
+                <div class="video-item">
+                    <img src="video-thumbnail3.jpg" alt="Video 3">
+                    <h3>Video Title 3</h3>
+                    <p>Views: 8,000</p>
+                </div>
+                <!-- Add more video items as needed -->
+            </section>
+            <style>
+                .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px;
+}
+
+.video-item {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.video-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.video-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.video-item p {
+    margin-top: 5px;
+    color: #777;
+}
+
+            </style>
+        </body>
+    </html>
+

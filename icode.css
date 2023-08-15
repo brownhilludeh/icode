@@ -91,3 +91,39 @@ border-radius: 30px;
     text-align: center;
     /* font-size: 40px; */
 }
+ .class-act {
+     border: solid;
+ }
+
+ .class-act .title {
+     text-align: center;
+     margin: 20px auto;
+ }
+
+ .class-act .class-body {
+     border: solid;
+     max-width: 1400px;
+     margin: auto;
+ }
+
+ .hero img {
+     width: 100%;
+     height: 50vh;
+     object-fit: cover;
+     object-position: center;
+ }
+ /* Grid Section */
+ .class-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap:10px;
+max-width: 1200px;
+    margin: auto;
+ }
+ .class-grid img{
+    width: 250px;
+ }
+ .class-card{
+    height: 300px;
+    border: solid;
+ }
